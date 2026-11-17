@@ -1,5 +1,7 @@
 {
   "key.autofarm.open_gui": "Open Auto Farm menu",
   "key.autofarm.toggle": "Toggle Auto Farm",
-  "key.category.autofarm.main": "Auto Farm"
+  "key.category.autofarm.main": "Auto Farm",
+  "modmenu.descriptionTranslation.autofarm": "Automatically farms crops: break + replant, or right-click harvest. Configurable per crop, keeps running while paused or alt-tabbed.",
+  "modmenu.summaryTranslation.autofarm": "Configurable auto farming"
 }

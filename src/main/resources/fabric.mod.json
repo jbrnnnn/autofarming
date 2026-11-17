@@ -6,9 +6,11 @@
   "description": "Auto farm tanaman (hancurkan + tanam ulang, atau klik kanan) dengan GUI. Tetap jalan saat ESC / inventory / pindah window.",
   "authors": ["Kamu"],
   "license": "MIT",
+  "icon": "assets/autofarm/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": ["com.example.autofarm.AutoFarmClient"]
+    "client": ["com.example.autofarm.AutoFarmClient"],
+    "modmenu": ["com.example.autofarm.AutoFarmModMenu"]
   },
   "mixins": [
     { "config": "autofarm.mixins.json", "environment": "client" }
@@ -18,5 +20,13 @@
     "minecraft": "~1.21.11",
     "java": ">=21",
     "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": ["client"]
+    }
   }
 }

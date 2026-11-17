@@ -1,5 +1,7 @@
 {
-  "key.autofarm.open_gui": "Open Auto Farm menu",
-  "key.autofarm.toggle": "Toggle Auto Farm",
-  "key.category.autofarm.main": "Auto Farm"
+  "key.autofarm.open_gui": "Buka menu Auto Farm",
+  "key.autofarm.toggle": "Nyalakan/Matikan Auto Farm",
+  "key.category.autofarm.main": "Auto Farm",
+  "modmenu.descriptionTranslation.autofarm": "Farming otomatis: hancurkan + tanam ulang, atau panen dengan klik kanan. Bisa diatur per tanaman dan tetap jalan saat ESC atau pindah window.",
+  "modmenu.summaryTranslation.autofarm": "Auto farming yang bisa diatur"
 }
