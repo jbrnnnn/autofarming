@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.autofarm.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ScreenMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

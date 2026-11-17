@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "autofarm",
+  "version": "${version}",
+  "name": "Auto Farm",
+  "description": "Auto farm tanaman (hancurkan + tanam ulang, atau klik kanan) dengan GUI. Tetap jalan saat ESC / inventory / pindah window.",
+  "authors": ["Kamu"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.autofarm.AutoFarmClient"]
+  },
+  "mixins": [
+    { "config": "autofarm.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
